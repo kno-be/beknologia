@@ -1,0 +1,29 @@
+
+.row {
+    justify-content: center;
+}
+
+#homeContentL {
+    margin: 10px;
+    justify-content: left;
+    text-align: center;
+    background-color: grey;
+    border:black solid 2px;
+}
+
+#homeContentM {
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    background-color: grey;
+    border:black solid 2px;
+}
+
+#homeContentR {
+    margin: 10px;
+    justify-content: right;
+    text-align: center;
+    background-color: grey;
+    border:black solid 2px;
+}
+
