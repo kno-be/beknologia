@@ -1,29 +1,60 @@
+html {
+
+}
+
+body {
+    background:linear-gradient(to right, #01060F, #2C4770, #04163F);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    overflow: auto;
+    
+  }
 
 .row {
     justify-content: center;
+    box-sizing: content-box;
+    
 }
 
+
 #homeContentL {
-    margin: 10px;
+    margin: 5px;
     justify-content: left;
     text-align: center;
-    background-color: grey;
-    border:black solid 2px;
+    color: #f2f2f2;
+    opacity: 60%;
+    
+    
 }
 
 #homeContentM {
-    margin: 10px;
+    margin: 5px;
     justify-content: center;
     text-align: center;
-    background-color: grey;
-    border:black solid 2px;
+    color: #f2f2f2;
+    opacity: 60%;
+    
 }
 
 #homeContentR {
-    margin: 10px;
+    margin: 5px;
     justify-content: right;
     text-align: center;
-    background-color: grey;
-    border:black solid 2px;
+    color: #f2f2f2;
+    opacity: 60%;   
 }
 
+#homeContentR p {
+    text-align: left;
+}
+
+/*[id*=homeContent]:hover  {
+    background-color: #04163F;
+    border-radius: 1rem;
+    opacity: 80%;  
+}*/
+
+.social {
+    display: inline-block;
+    margin: 5px 20px;
+}
