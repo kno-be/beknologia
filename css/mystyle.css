@@ -75,7 +75,7 @@ body {
     transition: 1s all ease;
   }
   .btn::before{
-    background: #ff7675;
+    background: #0a0909;
     content: "";
     position: absolute;
     top: 50%;
