@@ -1,0 +1,51 @@
+body {
+    padding-bottom: 4rem;
+}
+
+.form {
+    margin: 3rem;
+    padding: 10px 20px;
+    max-width: 30rem;
+    background-color: aliceblue;
+    display: block;
+}
+.form h3 {
+    color:black
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.form-group label {
+    color:#01060F;
+    display: block;
+}
+.form-group input {
+    width: 100%;
+    display: block;
+    font-size: 14px;
+
+}
+.form-group.sucess input{
+
+    border-color: green;
+}
+.form-group.error input {
+    border-color: red ;
+}
+.form-group small {
+    font-size: 12px;
+    visibility: hidden;
+}
+.form-group.error small{
+    visibility: visible;
+    color: red;
+}
+
+.form button {
+    width: 100%;
+    border-radius: 5px;
+}
+.form button:hover {
+    background-color: #01060F;
+    color: cornsilk;
+}
