@@ -55,26 +55,38 @@ nav a.nav-link:hover {
     padding:2rem 2rem;
 
  }
- 
+
+ #rowblog {
+    justify-content: center;
+    background-color: transparent;
+    opacity: 70%;
+    border-radius: 10px;
+    padding:2rem 2rem;
+
+ }
+ #rowblog div {
+     text-align: center;
+     color:white;
+     max-width: 30rem;
+     padding:3rem 5rem;
+ }
+
+ #rowblog div h1 {
+    border-bottom: solid 2px turquoise;
+}
  
  #homeContentL {
      margin: 1rem;
      justify-content: left;
      text-align: center;
      color: #f2f2f2;
- 
-     
-     
-     
  }
  
  #homeContentM {
      margin: 1rem;
      justify-content: center;
      text-align: center;
-     color: #f2f2f2;
-
-     
+     color: #f2f2f2;  
  }
  
  #homeContentR {
@@ -82,14 +94,11 @@ nav a.nav-link:hover {
      justify-content: right;
      text-align: center;
      color: #f2f2f2;
-    
  }
  
  #homeContentR p {
      text-align: left;
  }
-
- 
 
 li.social {
     display: inline-block;
