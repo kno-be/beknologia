@@ -13,6 +13,7 @@ color: #01060F,
     
 }
 body {
+    padding-bottom: 5rem;
     padding-top: 5rem;
     font-family: 'Oswald', sans-serif;
     font-size: medium;
@@ -54,6 +55,27 @@ nav a.nav-link:hover {
     border-radius: 10px;
     padding:2rem 2rem;
 
+ }
+ #portRow{
+     background-color: transparent;
+ }
+ #portContentL{ 
+     background-color: black;
+     padding: 0.5rem 0rem 1rem 1rem;
+     border-radius: 1rem;
+     margin: 0rem 1rem;
+ }
+ #portContentM{
+    background-color: black;
+    padding: 0.5rem 0rem 1rem 1rem;
+    border-radius: 1rem;
+    margin: 0rem 1rem;
+ }
+ #portContentR {
+    background-color: black;
+    padding: 0.5rem 0rem 1rem 1rem;
+    border-radius: 1rem;
+    margin: 0rem 1rem;
  }
 
  #rowblog {
