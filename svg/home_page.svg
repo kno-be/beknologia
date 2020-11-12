@@ -1,6 +1,1 @@
-<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" width="207.4" height="50.2" viewBox="0 0 207.4 50.2">
-  <g>
-    <text transform="translate(0 33.8)" style="font-size: 36px;fill: #f5f5f5;font-family:Oswald"><tspan xml:space="preserve">  BEKNO</tspan><tspan x="106.2" y="0" style="letter-spacing: -0.005995008680555556em">L</tspan><tspan x="120.3" y="0">OGIE</tspan></text>
-    <text transform="translate(14.7 32.6)" style="font-size: 36px;fill: #0098db;font-family:Oswald">BEKNO<tspan x="89.7" y="0" style="letter-spacing: -0.005995008680555556em">L</tspan><tspan x="103.8" y="0">OGIE</tspan></text>
-  </g>
-</svg>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 200"><defs><style>.cls-1{fill:url(#Gradiente_sem_nome_3);}.cls-2{opacity:0.8;font-size:36px;fill:#fff;stroke:#40e0d0;stroke-miterlimit:10;font-family:RobotoMono-Light, Roboto Mono;font-weight:300;}</style><linearGradient id="Gradiente_sem_nome_3" x1="0.5" y1="100" x2="599.5" y2="100" gradientUnits="userSpaceOnUse"><stop offset="0"/><stop offset="1" stop-color="#040b17"/></linearGradient></defs><rect class="cls-1" x="0.5" y="0.5" width="599" height="199"/><path d="M599,1V199H1V1H599m1-1H0V200H600V0Z"/><g id="Camada_2" data-name="Camada 2"><text class="cls-2" transform="translate(187 103.7)">BEKNOLOGIE</text></g></svg>
