@@ -42,8 +42,9 @@ nav a.nav-link:hover {
 
 #titlepage {
     color: turquoise;
-    text-align: center;
+    text-align: left;
     border-bottom: solid 2px #01060F;
+    display: block;
     margin: 0;
 
 }
