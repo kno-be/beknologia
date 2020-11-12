@@ -3,7 +3,7 @@
         <style>
             .cls-1,
             .cls-3 {
-                font-size: 3rem;
+                font-size: 6rem;
                 font-family: Oswald-Regular, Oswald, Roboto, Opes Sans, Helvetica Neue;
             }
 
@@ -12,7 +12,7 @@
             }
 
             .cls-2 {
-                letter-spacing: 0.01em;
+                letter-spacing: -0.01em;
             }
 
             .cls-3 {

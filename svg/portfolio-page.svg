@@ -3,7 +3,7 @@
         <style>
             .cls-1,
             .cls-2 {
-                font-size: 3rem;
+                font-size: 6rem;
                 font-family: Oswald-Regular, Oswald;
             }
 
