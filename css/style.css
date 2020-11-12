@@ -58,17 +58,21 @@ nav a.nav-link:hover {
 
  }
  #portRow{
-     background-color:black;
-     margin: 4rem 2rem;
+     background-color:transparent;
+     margin:0rem;
  }
- #portContentL{ 
-     background-color: black;
-     justify-content: center;
-     text-align: center;
-     padding:1rem 2rem;
-     border-radius: 1rem;
-     margin: 0rem 0rem 0.5rem;
+ #portContentL {
+    background-color: black;
+    padding:0.5rem;
+    border-radius: 1rem;
+    margin: 0rem 0rem 1rem;
  }
+ #portContentL h1 {
+    color: turquoise;
+    text-align: center;
+    font-size: 5rem; 
+}
+ 
  #portContentM{
     background-color: transparent;
     text-align: center;
@@ -77,12 +81,15 @@ nav a.nav-link:hover {
  }
  #portContentR {
     background-color: black;
-     justify-content: center;
-     text-align: center;
-     padding:1rem 2rem;
-     border-radius: 1rem;
-     margin: 0rem;
+    padding:0.5rem;
+    border-radius: 1rem;
+    margin: 0rem;
  }
+ #portContentR h1 {
+    color: turquoise;
+    text-align: center;
+    font-size: 5rem; 
+}
 
  #rowblog {
     justify-content: center;
