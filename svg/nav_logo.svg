@@ -1,1 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 274.35 85.89"><defs><style>.cls-1{fill:#66c1bf;}.cls-2{font-size:72px;fill:#fff;font-family:Oswald-Regular, Oswald;}</style></defs><g id="Camada_2" data-name="Camada 2"><g id="Camada_1-2" data-name="Camada 1"><g id="Camada_3" data-name="Camada 3"><rect class="cls-1" x="88.43" y="60.61" width="185.93" height="18.58"/><rect class="cls-1" width="118.52" height="14.07" transform="translate(118.52 14.07) rotate(-180)"/></g><g id="Camada_2-2" data-name="Camada 2"><text class="cls-2" transform="translate(15.2 65.23)">kno-be</text></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 274.35 85.89">
+    <defs>
+        <style>
+            .cls-1 {
+                fill: #66c1bf;
+            }
+
+            .cls-2 {
+                font-size: 72px;
+                fill: #fff;
+                font-family: Oswald-Regular, Oswald;
+            }
+        </style>
+    </defs>
+    <g id="Camada_2" data-name="Camada 2">
+        <g id="Camada_1-2" data-name="Camada 1">
+            <g id="Camada_3" data-name="Camada 3">
+                <rect class="cls-1" x="88.43" y="60.61" width="185.93" height="18.58" />
+                <rect class="cls-1" width="118.52" height="14.07" transform="translate(118.52 14.07) rotate(-180)" />
+            </g>
+            <g id="Camada_2-2" data-name="Camada 2"><text class="cls-2" transform="translate(15.2 65.23)">kno-be</text>
+            </g>
+        </g>
+    </g>
+</svg>
