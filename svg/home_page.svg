@@ -3,7 +3,7 @@
         <style>
             .cls-1,
             .cls-3 {
-                font-size: 6rem;
+                font-size: 72px;
                 font-family: Oswald-Regular, Oswald, Roboto, Opes Sans, Helvetica Neue;
             }
 
