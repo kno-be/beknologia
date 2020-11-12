@@ -1,1 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.57 51.21"><defs><style>.cls-1,.cls-3{font-size:36px;font-family:Oswald-Regular, Oswald;}.cls-1{fill:#f6f6f6;}.cls-2{letter-spacing:-0.01em;}.cls-3{fill:#0099db;}</style></defs><g id="Camada_2" data-name="Camada 2"><g id="Camada_1-2" data-name="Camada 1"><text class="cls-1" transform="translate(1.32 34.79)">BEKNO<tspan class="cls-2" x="89.75" y="0">L</tspan><tspan x="103.82" y="0">OGIE</tspan></text><text class="cls-3" transform="translate(0 32.58)">BEKNO<tspan class="cls-2" x="89.75" y="0">L</tspan><tspan x="103.82" y="0">OGIE</tspan></text></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1000 100" style="enable-background:new 0 0 1000 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#F5F5F5;}
+	.st2{font-family:'Oswald-Regular';}
+	.st3{font-size:36px;}
+	.st4{fill:#0098DB;}
+</style>
+<font horiz-adv-x="1000">
+<!-- Copyright 2016 The Oswald Project Authors \(https://github.com/googlefonts/OswaldFont\) -->
+<!-- Copyright: Copyright 2020 Adobe System Incorporated. All rights reserved. -->
+<font-face font-family="Oswald-Regular" units-per-em="1000" underline-position="-100" underline-thickness="50"/>
+<missing-glyph horiz-adv-x="682" d="M90,0l502,0l0,810l-502,0M193,90l0,630l296,0l0,-630z"/>
+<glyph unicode="B" horiz-adv-x="524" d="M63,0l216,0C424,0 487,91 487,231C487,346 446,413 349,436C428,447 465,507 465,607C465,746 395,810 249,810l-186,0M176,472l0,254l27,0C318,726 367,718 367,607C367,511 338,472 243,472M176,81l0,305l67,0C342,386 379,332 379,231C379,126 353,81 252,81z"/>
+<glyph unicode="E" horiz-adv-x="407" d="M63,0l316,0l0,81l-203,0l0,297l163,0l0,80l-163,0l0,268l201,0l0,84l-314,0z"/>
+<glyph unicode="G" horiz-adv-x="535" d="M256,-10C336,-10 378,33 400,93l11,-93l71,0l0,401l-205,0l0,-80l103,0l0,-56C380,143 358,80 270,80C181,80 161,137 161,254l0,300C161,654 167,729 267,729C358,729 370,681 370,576l0,-25l106,0l0,30C476,741 417,817 265,817C94,817 48,714 48,537l0,-271C48,91 104,-10 256,-10z"/>
+<glyph unicode="I" horiz-adv-x="248" d="M69,0l111,0l0,810l-111,0z"/>
+<glyph unicode="K" horiz-adv-x="495" d="M63,0l113,0l0,286l52,94l155,-380l110,0l-186,453l160,357l-105,0l-186,-382l0,382l-113,0z"/>
+<glyph unicode="L" horiz-adv-x="397" d="M63,0l320,0l0,81l-207,0l0,729l-113,0z"/>
+<glyph unicode="N" horiz-adv-x="528" d="M63,0l96,0l0,553l233,-553l72,0l0,810l-94,0l0,-538l-230,538l-77,0z"/>
+<glyph unicode="O" horiz-adv-x="539" d="M270,-9C433,-9 491,94 491,253l0,308C491,720 433,817 270,817C106,817 48,721 48,561l0,-307C48,93 105,-9 270,-9M270,80C179,80 162,139 162,229l0,355C162,674 179,729 270,729C360,729 377,674 377,584l0,-355C377,139 360,80 270,80z"/>
+<glyph unicode="-" horiz-adv-x="321" d="M49,261l223,0l0,81l-223,0z"/>
+</font>
+
+	<g>
+	<rect x="407.5" y="32.3" class="st0" width="166.3" height="45.6"/>
+	<text transform="matrix(1 0 0 1 407.5313 61.4298)"><tspan x="0" y="0" class="st1 st2 st3">BEKNOLO</tspan><tspan x="123.4" y="0" class="st1 st2 st3">-</tspan></text>
+	<rect x="406.2" y="30.1" class="st0" width="167.6" height="40.5"/>
+	<text transform="matrix(1 0 0 1 406.2142 59.2208)" class="st4 st2 st3">BEKNOLOGIE</text>
+</g>
+</svg>
