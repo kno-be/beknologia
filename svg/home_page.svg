@@ -6,7 +6,7 @@
 	.st0{fill:none;}
 	.st1{fill:#F6F6F6;}
 	.st2{font-family:'Oswald-Regular';}
-	.st3{font-size:3rem;}
+	.st3{font-size:36px;}
 	.st4{fill:#0099DB;}
 </style>
 <font horiz-adv-x="1000">
@@ -25,9 +25,9 @@
 </font>
 
 	<g>
-	<rect x="386.1" y="247.2" class="st0" width="56.4" height="13.7"/>
-	<text transform="matrix(1 0 0 1 386.1434 256.8875)" class="st1 st2 st3">BEKNOLOGIE</text>
-	<rect x="385.7" y="246.5" class="st0" width="56.8" height="12.1"/>
-	<text transform="matrix(1 0 0 1 385.6969 256.2244)" class="st4 st2 st3">BEKNOLOGIE</text>
+	<rect x="278.9" y="249.4" class="st0" width="339.1" height="76.2"/>
+	<text transform="matrix(1 0 0 1 278.9245 278.5918)" class="st1 st2 st3">BEKNOLOGIE</text>
+	<rect x="276.2" y="245.7" class="st0" width="341.8" height="67.7"/>
+	<text transform="matrix(1 0 0 1 276.2367 274.8974)" class="st4 st2 st3">BEKNOLOGIE</text>
 </g>
 </svg>
