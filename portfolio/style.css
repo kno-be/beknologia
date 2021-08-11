@@ -37,7 +37,7 @@ html {
     width: 100%;
     height: 100vh;
     background: linear-gradient(#052531,#084E69);
-    background-image: url("img/bg.jpg");
+    background-image: url("img/bg-4.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,32 +45,32 @@ html {
 }
 
 .section-1-heading {
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight:700;
     color: #fff;
-    background-color: #038DC2;
+    background:linear-gradient(to right,#052531,#075574);
     padding: 1rem;
     margin-bottom: 3rem;
     text-transform: uppercase;
     letter-spacing: 1rem;
-    border-bottom: 0.3rem solid #fff;
+    /* border-bottom: 0.3rem solid #fff; */
     text-shadow: 0.2rem 0.2rem 1rem #555;
     transform: skew(-10deg);
 }
 
 .person-image {
-    width: 13rem;
-    height: 18rem;
+    width: 18rem;
+    height: 28rem;
     object-fit: cover;
-    border-radius:50%;
-    border: 0.7rem solid #038DC2;
+    border-radius:0;
+    border: 0.7rem solid #052531;
     background-color: rgba(255,255,255,0.7);
 }
 
 .person-name {
     font-size: 2rem;
     color: #fff;
-    background-color: #038DC2;
+    background-color: #052531;
     margin: 5rem 0;
     padding: 0.5rem 3rem;
     letter-spacing: 0.3rem;
@@ -81,7 +81,7 @@ html {
     font-size: 1.5rem;
     font-weight:700;
     color: #fff;
-    background-color: #038DC2;
+    background-color: #052531;
     border: 0.3rem solid white;
     padding: 0.5rem 1rem;
     text-transform: uppercase;
@@ -93,8 +93,14 @@ html {
 .navbar {
     width: 100%;
     height: 4rem;
-    background-color:#038DC2;
+    background-color:#052531;
     box-shadow: 0.2rem 0.2rem 0.5rem #555;
+    position: absolute;
+    z-index: 300;
+}
+.sticky {
+    position: fixed;
+    top: 0;
 }
 
 .navbar-link {
@@ -107,21 +113,235 @@ html {
     position: relative;
     transition: color 0.3s;
 }
-.navbar-link:hover {
-    color: #052531;
+
+.change.navbar-link {
+    color: #3214;
 }
+
+.navbar-link:hover {
+    color: #fcfcfc;
+}
+
 .navbar-link::before {
     content: "";
     width: 0;
     height:0.2rem;
-    background-color:#052531;
+    background-color:#ffffff;
     position: absolute;
     right: -15%;
     bottom: -0.3rem;
     transition: width 0.3s;
 }
+
+.change.navbar-link::before {
+    width: 130%;
+    background:white;
+}
+
 .navbar-link:hover::before {
     width: 130%;
 }
+
+
 /* END OF NAVBAR */
 
+/* SECTION 2 */
+.section-2 {
+    width: 100%;
+    height: 100%;
+    padding: 10rem 0 10rem 0;
+    background-color:#038DC2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-2-heading {
+    font-size: 5rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    margin-bottom: 10rem;
+    border-bottom: 0.3rem solid #fff;
+    text-shadow: 0.2rem 0.2rem 0.5rem #555;
+}
+
+.progress-bars-wrapper {
+    margin-bottom:10rem;
+}
+
+.progress-bar {
+    width: 60rem;
+    height: 3rem;
+    background-color: #cccccc;
+    margin: 1.5rem 0;
+    border-radius: 0.3rem;
+    box-shadow: 0.2rem 0.2rem 0.5rem #555;
+    position: relative;
+}
+
+.progress-text {
+    position: absolute;
+    left: 1rem;
+    font-size: 1.5rem;
+    color: #fff;
+    z-index: 10;
+}
+
+.progress-text span {
+    margin: 0 0.5rem 0 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.progress-percent {
+    width: 90%;
+    height: 100%;
+    background:linear-gradient(to right,#052531,#075574);;
+    border-radius: 0.3rem;
+}
+
+.services {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.service {
+    text-align: center;
+}
+
+.service i {
+    font-size: 10rem;
+    color: #fff;
+    margin-bottom: 2rem;
+    text-shadow: 0.1rem 0.1rem 0.1rem #555;
+}
+
+.service h2 {
+    font-size: 2rem;
+    color: #fff;
+    background:linear-gradient(to right,#052531,#075574);
+    width: 25rem;
+    letter-spacing: 0.3rem;
+    transform: skew(-10deg);
+    box-shadow: 0.2rem 0.2rem 0.2rem rgb(7, 3, 3);
+}
+
+/* END OF SECTION 2 */
+
+/* START OF SECTION 3 */
+.section-3 {
+    width: 100%;
+    height: 100%;
+    padding: 10rem 0;
+    background-color: #038DC2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects-wrapper {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:1rem;
+    background:linear-gradient(to right,#052531,#075574);
+    position: relative;
+    overflow: hidden;
+}
+
+.project-text {
+    text-align: center;
+    letter-spacing:0.1rem;
+    position: absolute;
+    top: -10rem;
+    transition: top 0.3s ease;
+}
+
+.project:hover .project-text {
+    top: 5rem;
+}
+
+.project-name {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform:capitalize;
+}
+
+.project-technologies {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.project-image {
+    width: 40rem;
+    transition: opacity 0.3s;
+}
+
+.project:hover .project-image {
+    opacity: 0.2;
+}
+
+.project-link { 
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 0.1rem;
+    border:0.3rem solid #052531;
+    background-color: #052531;
+    padding: 0 1rem;
+
+    position: absolute;
+    bottom: -5rem;
+    transition: bottom 0.3s;
+}
+
+.project:hover .project-link {
+    bottom: 5rem;
+}
+/* END OF SECTION 3 */
+
+/* START OF SECTION 4*/
+.section-4 {
+    width: 100%;
+    height: 50vh;
+    background-color: #041117;
+    flex-direction: column;
+}
+
+.social-media {
+    margin-bottom: 10rem;
+}
+
+.social-media-link {
+    margin: 0 2rem;
+    padding: 0.5rem;
+    background-color: transparent;
+}
+
+.social-media-link i {
+    font-size: 4rem;
+    color: #038DC2;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    font-weight: 300;
+    text-align: center;
+}
+/* END OF SECTION 4*/
+
+/* RESPOSIVE */
+
+/* END OF RESPOSIVE */
