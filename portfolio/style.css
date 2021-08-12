@@ -155,89 +155,107 @@ html {
 /* END OF NAVBAR */
 
 /* SECTION 2 */
-.section-2 {
-    width: 100%;
-    height: 100%;
-    padding: 10rem 0 10rem 0;
-    background-color:#038DC2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.section-2 { 
+  background-color:#038DC2;
+  padding: 5rem;
+  width:100%;
+  height:auto;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: start;
 }
 
 .section-2-heading {
-    font-size: 5rem;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 0.5rem;
-    margin-bottom: 10rem;
-    border-bottom: 0.3rem solid #fff;
-    text-shadow: 0.2rem 0.2rem 0.5rem #555;
+  font-size: 5rem;
+  font-weight: 700;
+  padding: 3rem; 
+  color: #041117;
 }
 
-.progress-bars-wrapper {
-    margin-bottom:10rem;
+.section-2-hard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.progress-bar {
-    width: 60rem;
-    height: 3rem;
-    background-color: #cccccc;
-    margin: 1.5rem 0;
-    border-radius: 0.3rem;
-    box-shadow: 0.2rem 0.2rem 0.5rem #555;
-    position: relative;
+.hard-skills-wrapper {
+  display: grid;
+  grid-template:
+  "logo logo logo" 15rem
+  "logo logo logo" 15rem 
+  "logo logo logo" 15rem
+  /10rem 10rem 10rem;
+  column-gap: 2rem;
+  row-gap: 1rem;
 }
 
-.progress-text {
-    position: absolute;
-    left: 1rem;
-    font-size: 1.5rem;
-    color: #fff;
-    z-index: 10;
+.hard-skill {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+ 
+  
 }
 
-.progress-text span {
-    margin: 0 0.5rem 0 0;
-    font-size: 1.8rem;
-    font-weight: 700;
+.hard-skill-heading {
+  font-weight: 700;
+  letter-spacing: 0.1rem;
 }
 
-.progress-percent {
-    width: 90%;
-    height: 100%;
-    background:linear-gradient(to right,#052531,#075574);;
-    border-radius: 0.3rem;
+.hard-skill i {
+  font-size: 9rem;
+  height: auto;
+  color: #041117;
 }
 
-.services {
-    width: 100%;
-    height: 30vh;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+
+/* SOFT SKILLS*/
+
+.section-2-soft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.service {
-    text-align: center;
+.soft-skills-wrapper {
+  width: 100%;
 }
 
-.service i {
-    font-size: 10rem;
-    color: #fff;
-    margin-bottom: 2rem;
-    text-shadow: 0.1rem 0.1rem 0.1rem #555;
+.soft-skill {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  width: 40rem;
+  height: 10rem;
+  margin-bottom:1rem;
+  background-color: transparent;
+  color: #041117;
 }
 
-.service h2 {
-    font-size: 2rem;
-    color: #fff;
-    background:linear-gradient(to right,#052531,#075574);
-    width: 25rem;
-    letter-spacing: 0.3rem;
-    transform: skew(-10deg);
-    box-shadow: 0.2rem 0.2rem 0.2rem rgb(7, 3, 3);
+.soft-skill i {
+  margin: 0 auto;
+  font-size: 7rem;
+  padding-right:1rem;
 }
+
+.soft-skill-text {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.soft-skill-text h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-right: 1rem;
+}
+
+/* END OF SOFT SKILLS*/
 
 /* END OF SECTION 2 */
 
@@ -369,13 +387,33 @@ html {
     }
   }
   
-  @media (max-width: 800px) {
+  @media (max-width: 1000px) {
+    html {
+      font-size: 85%;
+    }
     .section-1-heading {
       font-size: 4rem;
+    }
+
+    .section-1-heading {
+      font-size: 3rem;
+    }
+
+    .section-2 {
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      flex-direction: column;
     }
   
     .progress-bar {
       width: 50rem;
+    }
+  }
+
+  @media (max-width:800px) {
+    html {
+      font-size: 75%;
     }
   }
   
@@ -389,16 +427,8 @@ html {
       font-size: 1.5rem;
     }
   
-    .section-2 {
-      padding: 10rem;
-    }
-  
     .section-2-heading {
-      margin-bottom: 5rem;
-    }
-  
-    .progress-bar {
-      width: 45rem;
+      margin-bottom: 3rem;
     }
   
     .project-img {
@@ -412,33 +442,40 @@ html {
   
   @media (max-width: 500px) {
     html {
-      font-size: 55%;
+      font-size: 60%;
     }
     .section-1-heading {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
       }
     }
   
   @media (max-width: 450px) {
     html {
-      font-size: 45%;
+      font-size: 60%;
     }
   
     .section-1-heading {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
   
     .navbar-link {
-      margin: 0 1.5rem;
+      margin: 0 1rem;
     }
   
     .section-2-heading {
       text-align: center;
     }
-  
-    .progress-bar {
-      width: 40rem;
+
+    @media (max-width: 400px) {
+      html {
+        font-size: 60%;
+      }
+
     }
+
+
+  
+
   }
 
 /* END OF RESPOSIVE */
