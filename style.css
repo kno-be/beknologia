@@ -1,32 +1,58 @@
+/* *START OF COMMOM STYLES */
+* {
+    margin:0;
+    padding:0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    height: -webkit-fill-available;
+}
 
 body {
-    height: 100%;
     background: black;
-    color: #fff;
+    overflow-x: hidden;
+    animation: animate 4s linear infinite;
+    min-height: -webkit-fill-available;
+}
+
+@keyframes animate {
+0% {
+    filter: hue-rotate(0deg);
+}
+ 
+100% {
+    filter: hue-rotate(360deg);
+}
+}
+
+/* *END OF COMMOM STYLES */
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    color: #36b;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     letter-spacing: 2px;
+
     }
-    img {
-    border-radius: 50%;
-    }
-    .profile-picture {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    height: auto;
-    max-width: 100px;
-    }
-    .profile-name {
-    text-align: center;
-    padding: 15px;
-    }
-    .links {
+
+.profile-heading {
+    font-family: 'Rock Salt', cursive;
+    font-size: 20px;
+
+}
+
+.links {
     text-align: center;
     margin-top: 20px;
-    padding: 20px;
-    border: 1px solid white;
+    padding: 15px;
+    border: 2px solid #36b;
     border-width: 2px;
     width: 290px;
     display: block;
@@ -34,18 +60,32 @@ body {
     margin-right: auto;
     border-radius: 40px;
     }
-    a {
+
+a {
     text-decoration: none;
-    color: white;
+    color: #0f0;
     transition: color 1s;
     }
-    .bottom-text {
+
+.bottom-text {
     text-align: center;
     margin-top: 40px;
     font-size: 20px;
     font-weight: bold;
     }
-    a:hover {
+
+a:hover {
     color: #000;
     background: #fff;
     }
+
+.copyright {
+    font-family: "Oswald", sans-serif;
+    width:100%;
+    padding-top: 5rem;
+    color: #fff;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    font-weight: 300;
+    text-align: center;
+}
